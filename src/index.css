@@ -1,3 +1,22 @@
+* {
+  /* теперь width/height будут считаться без паддингов и бордеров - т.е. только от доступного пространства*/
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -1,0 +1,49 @@
+
+
+.serviceContainer {
+    width: 1000px;
+    height: 500px;
+    background-color: aquamarine;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+
+    .title{
+        font-size: larger;
+        margin: 10px 10px;
+    }
+
+    .content{
+        display: flex;
+        margin: 10px 10px;
+
+        .img {
+            //display: flex;
+            width: 400px;
+            height: 400px;
+            margin: 10px 10px;
+            img {
+                width: 400px;
+                height: 400px;
+                object-fit: cover;
+                border-radius: 50px;
+                //overflow: hidden;
+                //background-size: contain;
+                //background-position: center;
+            }
+        }
+
+        .description{
+            flex-grow: 1;
+            margin: 10px 10px;
+
+        }
+
+        .price {
+            flex-grow: 1;
+            margin: 10px 10px;
+
+        }
+
+    }
+}

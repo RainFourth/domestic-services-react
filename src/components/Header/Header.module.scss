@@ -1,0 +1,32 @@
+
+
+// для тега <Link/> => <a/>
+a {
+    display: contents;
+    text-decoration: none;
+}
+
+$header-height: 50px;
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: #61dafb;
+    height: $header-height;
+
+
+    .content {
+        width: 1000px;
+        height: 100%;
+        margin: 0 auto;
+
+        .btns {
+            display: flex;
+            height: 100%;
+            margin: auto 0;
+            align-items: center;
+        }
+    }
+}
+.headerSpace {
+    height: $header-height;
+}

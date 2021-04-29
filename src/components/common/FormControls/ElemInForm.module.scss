@@ -1,0 +1,33 @@
+
+
+
+
+
+.elemInForm {
+    display: inline-block;
+}
+
+// обращение к элементу, имеющему 2 этих класса
+// классы к элементу присваиваем через пробел: className={formControl + " " + error}
+.elemInForm.error  {
+    input, textarea { //для input и textarea, лежащих в .formControl + .error
+        border: solid red 2px;
+    }
+    span {
+        color: red;
+    }
+}
+
+.errorMsg {
+    display: inline-block;
+    color: red;
+    //order: 100;
+    margin: 0 20px;
+}
+
+
+.formSummaryError {
+    //border: solid red 1px;
+    padding: 5px 5px;
+    color: red;
+}
