@@ -7,7 +7,7 @@ import servicesReducer from "./servicesReducer";
 
 
 // reducer - функция, принимающая часть state и action, изменяющая state в соответствии с action, и возвращающая его
-// создаём объект, где имя переменной является полем в state, а значение поля - reducer к переменной в store
+// Создаём объект, где имя переменной является полем в state, а значение поля - reducer к переменной в store
 const reducers = combineReducers({
         app: appReducer,
         auth: authReducer,
